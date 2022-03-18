@@ -140,15 +140,17 @@ button{
 .sidebar img{
     margin-top: 15px;
 }
-.container{
+/* .container{
    max-width: 1231px;
    width: 100%;
-   margin: 87px 188px auto 501px;
+   margin-top: 71px;
+
 }
 .content-nav{
     display: flex;
     justify-content: space-between;
     font-size: 16x;
+    margin-left: 182px;
 }
 .nav-wrapper{
     display: flex;
@@ -161,5 +163,5 @@ button{
     width: 132px;
     height: 56px;
     border: 1px solid #D8D8D8;
-    border-radius: 12px;
-}
+    border-radius: 12px; */
+} */
