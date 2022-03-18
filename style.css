@@ -11,19 +11,19 @@ ul{
 }
 body{
     max-width: 1920px;
-    height: 1080px;
+    max-height: 1663px;
+    height: 100%;
     width: 100%;
 }
 header{
     width: 100%;
     padding-left: 344px;
+    padding-right: 90px;
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     
 }
-
 
 input{
     width:446px;
@@ -47,7 +47,6 @@ i{
     width: 55px;
     color: #FF2288;
     height: 19px;
-    margin-left: 626px;
 }
 .notification{
     width: 24px;
@@ -76,9 +75,10 @@ button{
 
 .sidebar{
    width: 319px;
-   max-height:2168px;
+   max-height: 1080px;
+   height: 100%;
    display: inline-block;
-   position:absolute;
+   position:fixed;
    top: 0;
    z-index: 100;
    background-color: #222222;
@@ -98,7 +98,7 @@ button{
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-top:54px;
+    /* margin-top:54px; */
     
 }
 .navbar p{
@@ -124,7 +124,7 @@ button{
 }
 .end{
     margin-top: 19px;
-    margin-bottom: 106px;
+    margin-bottom:106px;
     color: #FFFFFF;
 }
 .sidebar-end li{
@@ -139,4 +139,27 @@ button{
 }
 .sidebar img{
     margin-top: 15px;
+}
+.container{
+   max-width: 1231px;
+   width: 100%;
+   margin: 87px 188px auto 501px;
+}
+.content-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16x;
+}
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.nav-wrapper li {
+    margin-left: 52px;
+}
+#filters{
+    width: 132px;
+    height: 56px;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
 }
