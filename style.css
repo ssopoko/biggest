@@ -12,18 +12,17 @@ ul{
 body{
     max-width: 1920px;
     width: 100%;
-    max-height: 1080px;
-    height: 100%;
 }
 header{
+    width: 100%;
     padding-left: 344px;
     padding-top: 30px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     
 }
+
 
 input{
     width:446px;
@@ -76,10 +75,53 @@ button{
 
 .sidebar{
    width: 319px;
-   height: 1080px;
+   max-height: 2168px;
+   display: inline-block;
    position: fixed;
-   top: 0;
    z-index: 100;
-   overflow:hidden;
+   top: 0;
    background-color: #222222;
+}
+.logo{
+    margin:42px 30px 106px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 60px;
+
+}
+.navbar li{
+    display: flex;
+    flex-direction: row;
+    margin-top:54px;
+    
+}
+.navbar p{
+    width: 52px;
+    height: 21px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+.navbar img{
+    width:24px;
+    height: 24px;
+}
+.sidebar-end{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 60px;
+}
+.middle{
+    margin-top: 89px;
+    margin-bottom: 31px;
+}
+.container{
+    padding-left: 344px;
+    width: 700px;
 }
