@@ -22,6 +22,7 @@ header{
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
+
     
 }
 
@@ -40,7 +41,7 @@ i{
     height: 24px;
     position: absolute;
     z-index: 10;
-    margin-left:-20px;
+    margin-left:-30px;
     margin-top:16px ;
 }
 .words{
@@ -59,7 +60,7 @@ i{
     margin-left: 30px;
 }
 .picture{
-    width: 56px;
+    max-width: 56px;
     height: 56px;
     margin-left: 30px;
 }
@@ -74,7 +75,8 @@ button{
 }
 
 .sidebar{
-   width: 319px;
+   max-width: 319px;
+   width: 100%;
    max-height: 1080px;
    height: 100%;
    display: inline-block;
@@ -84,12 +86,14 @@ button{
    background-color: #222222;
 }
 .logo{
-    margin:42px 30px 106px 30px;
+    margin:10px 30px auto 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .navbar{
+    max-width: 150px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 60px;
@@ -102,14 +106,14 @@ button{
     
 }
 .navbar p{
-    width: 52px;
+    width: 40px;
     height: 21px;
     color: #FFFFFF;
     margin-left: 15px;
 }
 .navbar a{
-     width:24px;
-    height: 24px;
+     width:15px;
+    height: 20px;
 }
 .sidebar-end{
     display: flex;
@@ -118,8 +122,8 @@ button{
 
 }
 .middle{
-    margin-top: 89px;
-    margin-bottom: 31px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     color: #FFFFFF;
 }
 .end{
@@ -140,28 +144,60 @@ button{
 .sidebar img{
     margin-top: 15px;
 }
-/* .container{
-   max-width: 1231px;
+.container{
+   max-width: 1350px;
    width: 100%;
    margin-top: 71px;
+   padding-left: 400px;
+   padding-right: auto;
 
 }
 .content-nav{
     display: flex;
     justify-content: space-between;
-    font-size: 16x;
-    margin-left: 182px;
+    align-items: baseline;
 }
 .nav-wrapper{
     display: flex;
     flex-direction: row;
 }
-.nav-wrapper li {
-    margin-left: 52px;
+.filter-icon img{
+    width:24px;
+    display:inline-block;
+    position: absolute;
+    margin: 15px 30px auto 40px;
+    z-index: 1;
+}
+.nav-wrapper li{
+    margin-left:20px;
 }
 #filters{
-    width: 132px;
+    width: 125px;
+    display: inline-block;
+    position: relative;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 30px;
+
+}
+.grid-container img{
+    max-width: 289px;
+    width: 100%;
+    box-shadow: 0px 0px 20px #5B5EBA1F;
+    border-radius: 12px;
+}
+.end-button{
+    padding-left: 300px;
+    margin-top: 70px;
+}
+.section-button{
+    width: 289px;
     height: 56px;
-    border: 1px solid #D8D8D8;
-    border-radius: 12px; */
-} */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    color: #222222;
+}
+
