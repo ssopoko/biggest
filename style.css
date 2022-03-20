@@ -14,6 +14,7 @@ body{
     max-height: 1663px;
     height: 100%;
     width: 100%;
+    
 }
 header{
     width: 100%;
@@ -22,18 +23,17 @@ header{
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-
-    
+    font-family:'Helvetica Neue';
 }
 
 input{
     width:446px;
-    height: 56px;
+    height:56px;
     margin-left:25px;
     background-color: #f8f8f8;
     position: relative;
     border:0px solid;
-    border-radius: 12px;
+    border-radius:12px;
 }
 
 i{
@@ -84,6 +84,7 @@ i{
    top: 0;
    z-index: 100;
    background-color: #222222;
+   font-family:'Ramaraja';
 }
 .logo{
     margin:10px 30px auto 30px;
@@ -151,6 +152,7 @@ i{
    padding-left: 450px;
    padding-right: auto;
    background-color: #FFFFFF;
+   font-family:'Ramaraja';
 
 }
 .content-nav{
@@ -184,9 +186,11 @@ i{
     margin-top: 30px;
 
 }
+
 .grid-container img{
     max-width: 289px;
     width: 100%;
+    position: relative;
     box-shadow: 0px 0px 20px #5B5EBA1F;
     border-radius: 12px;
 }
@@ -210,6 +214,7 @@ i{
     height: 500px;
     background-color: #fafafa;
     margin-top: 70px;
+    font-family:'Ramaraja';
 }
 .designers{
     max-width:1350px;
@@ -219,17 +224,17 @@ i{
 }   
 
 .undone{
-    width: 80px;
+    width: 90px;
     height: 40px;
-    border: 1px solid #D8D8D8;
+    border: 1px solid #F2F2F2 ;
     border-radius: 12px;
     opacity: 1;
     border: none;
 }
 .done{
-    width: 80px;
+    width: 90px;
     height: 40px;
-    background: #F2F2F2 0% 0% no-repeat padding-box;
+    background: #D8D8D8 0% 0% no-repeat padding-box;
     border-radius: 12px;
     opacity: 1;
     border: none;
@@ -279,6 +284,7 @@ h2{
     margin-left: 89px;
 }
 footer{
+    font-family:'Helvetica Neue'; 
     max-width: 1094px;
     width: 100%;
     height: 398px;
@@ -298,4 +304,21 @@ h5{
 }
 footer li{
     margin-top:15px;
+    color: #222;
+}
+
+/* add hover  */
+
+.nav-wrapper li:hover{
+    box-shadow:0 0 0 12px #f2f2f2;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    cursor:pointer;
+}
+.navbar  :hover{
+    background: #FF2288 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+
 }
