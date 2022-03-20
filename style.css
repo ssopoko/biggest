@@ -64,7 +64,7 @@ i{
     height: 56px;
     margin-left: 30px;
 }
-button{
+.profile button{
     width: 129px;
     height: 56px;
     background-color: #FF2288;
@@ -148,8 +148,9 @@ button{
    max-width: 1350px;
    width: 100%;
    margin-top: 71px;
-   padding-left: 400px;
+   padding-left: 450px;
    padding-right: auto;
+   background-color: #FFFFFF;
 
 }
 .content-nav{
@@ -196,8 +197,105 @@ button{
 .section-button{
     width: 289px;
     height: 56px;
+    background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
     background: #F2F2F2 0% 0% no-repeat padding-box;
     border-radius: 12px;
-    color: #222222;
-}
+    opacity: 1;
+    border: none;
 
+}
+.container2{
+    max-width: 1601px;
+    width: 100%;
+    height: 500px;
+    background-color: #fafafa;
+    margin-top: 70px;
+}
+.designers{
+    max-width:1350px;
+    width:100%; 
+    padding-left:378px; 
+    
+}   
+
+.undone{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+    opacity: 1;
+    border: none;
+}
+.done{
+    width: 80px;
+    height: 40px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    border: none;
+}
+.list{
+    margin-left: 78px;
+    padding-top:70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+   
+
+}
+.list li{
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    
+
+}
+.list img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.address{
+    font-size: 10px;
+    letter-spacing: 0.36px;
+    color: #222222;
+    opacity: 0.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    max-width:199px ;
+    width: 100%;
+    height: 43px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    padding-top: 70px;
+    margin-left: 89px;
+}
+footer{
+    max-width: 1094px;
+    width: 100%;
+    height: 398px;
+    display: grid;
+    grid-template-columns:21% 21% 21% 25% ;
+    grid-gap:80px;
+    padding-left:450px ;
+    margin-top:70px ;
+    text-size-adjust: 16px;
+}
+h5{
+    font-size:16px ;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    margin-bottom: 36px;
+}
+footer li{
+    margin-top:15px;
+}
