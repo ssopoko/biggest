@@ -9,6 +9,7 @@ a{
 ul{
     list-style: none;
 }
+
 body{
     max-width: 1920px;
     max-height: 1663px;
@@ -23,7 +24,8 @@ header{
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    font-family:'Helvetica Neue';
+    font-family:  'ALK Life';
+    
 }
 
 input{
@@ -84,7 +86,8 @@ i{
    top: 0;
    z-index: 100;
    background-color: #222222;
-   font-family:'Ramaraja';
+   font-family:  'ALK Life';
+   
 }
 .logo{
     margin:10px 30px auto 30px;
@@ -152,7 +155,8 @@ i{
    padding-left: 450px;
    padding-right: auto;
    background-color: #FFFFFF;
-   font-family:'Ramaraja';
+   font-family: 'BPG Nino Elite Cond';
+   
 
 }
 .content-nav{
@@ -214,7 +218,7 @@ i{
     height: 500px;
     background-color: #fafafa;
     margin-top: 70px;
-    font-family:'Ramaraja';
+    font-family: 'BPG Nino Elite Cond';
 }
 .designers{
     max-width:1350px;
@@ -284,7 +288,6 @@ h2{
     margin-left: 89px;
 }
 footer{
-    font-family:'Helvetica Neue'; 
     max-width: 1094px;
     width: 100%;
     height: 398px;
@@ -294,6 +297,7 @@ footer{
     padding-left:450px ;
     margin-top:70px ;
     text-size-adjust: 16px;
+    font-family: 'BPG Nino Elite Exp';
 }
 h5{
     font-size:16px ;
@@ -301,10 +305,11 @@ h5{
     color: #222222;
     opacity: 1;
     margin-bottom: 36px;
+    font-weight: normal;
 }
 footer li{
     margin-top:15px;
-    color: #222;
+    color: #222222;
 }
 
 /* add hover  */
@@ -315,10 +320,75 @@ footer li{
     border-radius: 2px;
     opacity: 1;
     cursor:pointer;
+    
 }
 .navbar  :hover{
     background: #FF2288 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 1;
+}
+
+/* media query (which I failed) */
+@media (max-width:1024px){
+    .sidebar{
+        display: none;
+    }
+    header{
+         width: 100%;
+         margin:0 auto;
+        padding: auto;
+        flex-wrap: nowrap;
+    }
+    .content-nav{
+        width: 100%;
+        padding-left: auto;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: auto;
+    }
+    input{
+        width: auto;
+    }
+    .profile button{
+        width: auto;
+        height: auto;
+    }
+    .container2{
+        width: 100%;
+        padding-left: auto;
+    }
+    .list{
+        padding-left: auto;
+        display: flex;
+        flex-wrap:wrap;
+
+    }
+    .grid-container{
+        padding-left: auto;
+        flex-wrap: nowrap;
+        
+    }
+    .section-button{
+        width: auto;
+    }
+    footer{
+        margin-top:150px;
+        max-height: 398px;
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-gap: 20px;
+        
+    }
+    footer li{
+        margin-top: auto;
+    }
+}
+@media (max-width:768px){
 
 }

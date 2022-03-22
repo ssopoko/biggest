@@ -1,9 +1,29 @@
+
+
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-UltraLight.woff') format('woff'),
-        url('../fonts/HelveticaNeue-UltraLight.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'ALK Life';
+    src: url('../fonts/alk-life-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-life-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-life-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-life-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-life-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-life-webfont.svg#alk_liferegular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG Nino Elite Exp';
+    src: url('../fonts/bpg-nino-elite-exp-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-elite-exp-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-elite-exp-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-elite-exp-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-elite-exp-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-elite-exp-webfont.svg#bpg_nino_elite_expregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG Nino Elite Cond';
+    src: url('../fonts/bpg-nino-elite-cond-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-elite-cond-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-elite-cond-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-elite-cond-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-elite-cond-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-elite-cond-webfont.svg#bpg_nino_elite_condregular') format('svg'); /* Legacy iOS */
 }
